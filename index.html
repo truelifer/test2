@@ -24,12 +24,11 @@
               deepLinking: true,
               presets: [
                   SwaggerUIBundle.presets.apis,
-                  SwaggerUIBundle.SwaggerUIStandalonePreset
+                  SwaggerUIBundle.SwaggerUIStandalonePreset(0)
               ],
               plugins: [
                   SwaggerUIBundle.plugins.DownloadUrl
               ],
-              layout: "StandaloneLayout"
           })
           window.ui = ui
       }
